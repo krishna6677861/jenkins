@@ -21,5 +21,15 @@ public class JenkinsController {
 	public int getAge() {
 		return 21;
 	}
+	
+	@GetMapping(value="/getname")
+	public String getname() {
+		return "Radhakrishnan";
+	}
+	
+	@GetMapping(value="/getage1")
+	public int getAge1() {
+		return 21;
+	}
 
 }
