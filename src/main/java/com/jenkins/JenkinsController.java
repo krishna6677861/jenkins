@@ -22,8 +22,8 @@ public class JenkinsController {
 		return 21;
 	}
 	
-	@GetMapping(value="/getname")
-	public String getname() {
+	@GetMapping(value="/getname1")
+	public String getname1() {
 		return "Radhakrishnan";
 	}
 	
